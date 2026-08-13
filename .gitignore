@@ -1,0 +1,23 @@
+﻿# Videos e arquivos pesados (>100MB não aceitos pelo GitHub)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+.venv/
+venv/
+ENV/
+
+# Arquivos temporários de teste
+test*.html
+
+# IDE e Sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

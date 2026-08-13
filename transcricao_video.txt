@@ -1,0 +1,770 @@
+[00:00 -> 00:10] Olá, boa tarde a todos. Eu vou apresentar uma análise estratégica de precificação e posicionamento de mercado alto para novos negócios.
+[00:10 -> 00:22] Bom, a ideia é trazer um cenário onde possa ser atingido uma meta de conversão de 15%.
+[00:22 -> 00:29] Esse painel visa apresentar o diagnóstico de precificação da Porto frente aos concorrentes no mercado alto.
+[00:29 -> 00:36] Afim de propor o plano de ação para o atingimento dessa meta de 15% de conversão.
+[00:36 -> 00:48] Foi apresentado uma base de dados de uma pesquisa marcadorológica que avalia o posicionamento de preço de 10 concorrentes do setor.
+[00:48 -> 01:12] A base traz preço médio da Porto e 4 concorrentes diretos e um preço desses 10 concorrentes e um histórico de janeiro a agosto de 2026 e a porcentagem de conversão da Porto.
+[01:12 -> 01:18] A segmentação da base é em dois perfis de clientes, o produto 1 e o produto 2.
+[01:18 -> 01:35] Então, o que é esperado? Um diagnóstico de posicionamento, identificar a competitividade tarifária frente aos concorrentes e a meta dos 15% de vendas e a meta dos 15% de vendas.
+[01:35 -> 01:39] O que é preciso fazer para atingir essa meta no mês?
+[01:39 -> 01:48] Bom, o foco da apresentação é um plano de ajuste tarifário que seja o melhor possível.
+[01:48 -> 01:57] Sobre o diagnóstico de conversão e desempenho, eu vou trazer um resumo do que a base apresenta.
+[01:57 -> 02:10] Então, sobre o cheir de cotações, para o produto 1, a Porto apresenta 72,4% de cotações, o produto 2, 67,6% das cotações.
+[02:10 -> 02:21] Então, existe uma dominância da Porto para a base de multicáculo desses dois perfis, portanto o produto 1 quanto o produto 2.
+[02:21 -> 02:31] E a conversão atual versus a meta em média para o produto 1 está em 12,54, então existe uma diferença de 2,46.
+[02:31 -> 02:41] E para o produto 2, 13,40%. Existe uma diferença em relação à meta de 1,6%.
+[02:41 -> 02:56] E, bom, sobre o produto 1, a ponto a destacar, sobre o produto 1, no produto 1 a Porto opera com 8,51% acima do mercado.
+[02:56 -> 03:04] Então, a gente está falando de 3.078, o preço médio da Porto, versus 2.837 do mercado,
+[03:04 -> 03:12] o que limita a conversão média como foi apontado em 12,54, ou seja, um pouco distante da meta de 15%.
+[03:12 -> 03:20] Outro ponto a se destacar no produto 2, que em julho, a Porto atingiu essa meta.
+[03:21 -> 03:30] Quando ela atingiu essa meta, o preço estava descontado em 1,8%, em relação à média do mercado.
+[03:30 -> 03:40] E essa conversão atingiu os 15,31% da meta, então ela atingiu a meta nesse mês de julho para o produto 2.
+[03:41 -> 03:57] Sobre as metodologias utilizadas, foi aplicada regressão linear, clusterização, uma projeção temporal para uma previsão.
+[03:57 -> 04:14] Então, o objetivo dessa série temporal é justamente fazer e gerar um cenário com, ao invés de olhar o passado, olhar o futuro.
+[04:14 -> 04:25] Bom, eu optei por, ao invés de trazer uma apresentação clássica em PowerPoint,
+[04:25 -> 04:31] eu optei por trazer um Dash para que a apresentação seja mais fluida, seja dinâmica,
+[04:31 -> 04:39] e a gente tenha a possibilidade de olhar os dados, os cenários, verificar as simulações.
+[04:40 -> 04:50] Então, aqui a gente tem o período que foi utilizado no estudo, que são as cotações de janeiro a agosto,
+[04:50 -> 04:54] são os dois perfis, o perfil 1 e o perfil 2.
+[04:56 -> 05:05] Bom, de maneira geral, a gente tem esse cenário, não é interessante fazer análise com relação a esse cenário,
+[05:06 -> 05:09] porque são perfis completamente diferentes.
+[05:09 -> 05:15] Então, a gente vai fazer, eu vou trazer os resultados, análise os resultados perfil a perfil.
+[05:16 -> 05:26] Então, primeiramente, para o perfil 1, a gente tem, pela base, um preço médio de R$3.078 para Porto,
+[05:26 -> 05:36] um preço médio de mercado de R$2.837, ou seja, a Porto está a 8,5% acima do preço médio de mercado,
+[05:36 -> 05:42] e a média de vendas, a conversão da Porto está em R$12,54.
+[05:45 -> 05:53] Olhando a evolução do preço, da Porto, versus o preço médio de mercado,
+[05:53 -> 06:04] a gente observa que ao longo do tempo a Porto vem apresentando para o perfil 1 sempre um preço médio acima do preço de mercado.
+[06:06 -> 06:13] Quando a gente abre para as congêneres, as quatro congêneres que foram apresentadas,
+[06:13 -> 06:22] a gente percebe que a Porto está no meio das congêneres,
+[06:22 -> 06:30] o preço da Porto, apesar de ser acima do preço médio praticado pelo mercado, a Porto não é a mais cara.
+[06:31 -> 06:36] A Porto está com duas congêneres que apresentam preços médios superiores,
+[06:36 -> 06:44] e duas congêneres que apresentam o preço inferior ao preço da Porto.
+[06:44 -> 06:49] E aqui embaixo a gente consegue ver em cinza o preço médio de mercado.
+[06:50 -> 06:56] Bom, em relação à conversão de vendas,
+[06:56 -> 07:00] aqui a gente tem ao longo do período o atingimento da meta de 15%,
+[07:00 -> 07:05] a gente percebe que para o perfil 1 em nenhum momento foi atingido.
+[07:07 -> 07:16] E a distribuição de cotação no mês, a gente verifica que a Porto está sempre em destaque em relação às congêneres.
+[07:16 -> 07:21] A Porto contribui muito para as bases de multicáculo.
+[07:23 -> 07:36] Bom, voltando aqui na evolução do preço médio, a gente observa que a Porto nunca esteve abaixo do preço médio de mercado.
+[07:38 -> 07:45] E a gente observa também que em nenhum momento, como já foi citado, a Porto atinge os 15% de meta.
+[07:45 -> 07:52] Isso existe uma relação entre esse preço médio está acima da média do mercado
+[07:52 -> 07:57] ao não atingimento da meta dos 15%.
+[07:57 -> 08:02] Quando a gente verifica, quando a gente faz um gráfico de dispersão
+[08:02 -> 08:10] entre a diferença do preço da Porto com o preço médio de mercado,
+[08:10 -> 08:20] que seria o eixo X e a meta de vendas de conversão no eixo Y,
+[08:20 -> 08:26] a gente percebe que existe uma linha de tendência aqui
+[08:26 -> 08:32] e essa linha é, dependendo da forma que você analisa,
+[08:32 -> 08:36] ela pode ser entendida como positivo ou ela pode ser entendida como negativa.
+[08:37 -> 08:46] Mas, não, existe uma linha de tendência e a gente observa que para os meses
+[08:46 -> 08:54] onde o preço da Porto está muito além do preço médio de mercado,
+[08:54 -> 09:02] a gente tem um fechamento baixo.
+[09:02 -> 09:07] Ou seja, em janeiro havia uma média de 18%.
+[09:07 -> 09:14] A diferença, a variação entre o preço da Porto e o preço das congêneres estava em 18%.
+[09:14 -> 09:16] A gente observa isso no gráfico.
+[09:16 -> 09:20] Isso aqui é a maior diferença entre o preço da Porto e o preço médio de mercado.
+[09:20 -> 09:28] E por ser a maior diferença, ele implicou no pior fechamento.
+[09:29 -> 09:35] Quando a gente olha fevereiro, a gente observa uma média de 13%,
+[09:35 -> 09:42] a variação de preço em relação a preço médio de mercado.
+[09:42 -> 09:48] Essa diferença diminuiu.
+[09:48 -> 09:54] E aqui a gente tem uma conversão de 10,6 contra uma conversão de 10,6.
+[09:54 -> 09:58] Ela diminuiu, mas ela não foi suficiente para mudar esse patamar de fechamento.
+[09:58 -> 10:03] Quando a gente vai para março, a gente observa uma diferença,
+[10:03 -> 10:06] uma variação de 9%.
+[10:06 -> 10:08] Bem inferior às demais.
+[10:08 -> 10:12] E a gente observa também que houve uma melhora na performance
+[10:12 -> 10:16] de conversão do seguro para o Curf1.
+[10:16 -> 10:26] Então aqui a gente está falando de saindo de 10,6 de fechamento para 12,2.
+[10:26 -> 10:32] Em julho é onde a gente tem a nossa quarta evolução de diferença de prêmio.
+[10:32 -> 10:36] E a gente observa que mais uma vez diminuiu a diferença,
+[10:36 -> 10:43] essa variação ficou menor, a conversão melhorou.
+[10:44 -> 10:48] Em agosto a mesma coisa, em junho a mesma coisa,
+[10:48 -> 10:50] até chegar em abril que é o último momento.
+[10:50 -> 10:57] Em abril é onde tem 14,3% de atingimento de meta.
+[10:57 -> 11:01] Isso aconteceu quando o prêmio, a diferença do prêmio médio da Porto
+[11:01 -> 11:06] com a prêmio médio do mercado, ficou próximo de 4%,
+[11:06 -> 11:08] que a gente observa aqui.
+[11:08 -> 11:12] Foi exatamente o menor preço da Porto
+[11:12 -> 11:21] versus a menor variação entre preço médio da Porto e preço médio de mercado.
+[11:21 -> 11:30] E a gente observa que em maio é onde teve essa maior diferença.
+[11:31 -> 11:36] Bom, aqui o que foi feito?
+[11:36 -> 11:44] Foi feito uma previsão do que pode acontecer com o prêmio tanto da Porto
+[11:44 -> 11:47] quanto de mercado em setembro.
+[11:47 -> 11:50] A gente observa que se continuar com essa tendência,
+[11:50 -> 11:54] há uma diminuição do prêmio médio da Porto
+[11:54 -> 11:57] mas também há uma diminuição do prêmio médio de mercado.
+[11:57 -> 12:00] Por que foi feito essa previsão?
+[12:00 -> 12:09] Mais para a frente, quando eu trouxe as informações do atingimento de meta,
+[12:09 -> 12:12] o que precisa ser feito para atingimento de meta?
+[12:12 -> 12:15] Eu vou trazer esse cenário de previsão.
+[12:15 -> 12:17] Além de outros cenários simulados,
+[12:17 -> 12:23] eu também vou trazer o cenário de simulação da projeção.
+[12:23 -> 12:28] Então, não vou dar spoiler a respeito de como vai ser utilizado,
+[12:28 -> 12:33] mas esse valor aqui pode ser interessante para uma estratégia.
+[12:33 -> 12:41] Bom, de acordo com a previsão de setembro,
+[12:41 -> 12:47] a gente também consegue projetar como ficaria o atingimento de meta de setembro.
+[12:47 -> 12:50] O atingimento de meta utilizando setembro,
+[12:50 -> 12:55] ele ainda não atingiria os 15%, mas ficaria no mesmo patamar de maio.
+[12:55 -> 13:04] Então, há uma expectativa de diminuição de prêmio e uma manutenção do fechamento.
+[13:04 -> 13:11] Infelizmente, essa projeção ainda não nos aponta um atingimento de meta.
+[13:11 -> 13:16] Bom, esse é o cenário para o produto 1, para o perfil 1.
+[13:16 -> 13:19] Para o perfil 2, o cenário muda completamente.
+[13:19 -> 13:24] Então, a gente está falando de um preço médio muito maior que o perfil 1,
+[13:24 -> 13:30] só que a gente também fala de um preço médio que é muito próximo do preço médio de mercado.
+[13:30 -> 13:39] Ou seja, o perfil 1, a gente consegue mexer muito mais no preço,
+[13:39 -> 13:41] o preço está bem distante da parte de mercado,
+[13:41 -> 13:48] e no perfil 2, a gente já está falando de um preço que está muito próximo do preço médio de mercado,
+[13:48 -> 13:51] mas que ainda não atingiu a meta.
+[13:51 -> 13:57] Então, esse produto, esse perfil, é um perfil um pouco mais complicado, ele não é tão elástico.
+[13:57 -> 14:08] E aí, quando a gente compara o preço médio, a evolução do preço médio,
+[14:08 -> 14:12] a gente observa que em momentos o preço da porta está acima,
+[14:12 -> 14:16] em momentos o preço médio das congeneras está abaixo,
+[14:16 -> 14:19] e o atingimento de meta é a mesma coisa.
+[14:19 -> 14:22] Em alguns momentos está bem abaixo, em alguns momentos está acima,
+[14:22 -> 14:27] e em certo momento houve o atingimento da meta.
+[14:27 -> 14:28] Isso aconteceu em julho.
+[14:28 -> 14:34] A gente observa que em julho foi um momento
+[14:34 -> 14:42] onde a não é o menor preço da porta,
+[14:42 -> 14:47] porém é o segundo o menor preço da porta,
+[14:47 -> 14:50] e também nem é a menor diferença,
+[14:50 -> 14:55] mas esse dado de preço médio de mercado esconde um detalhe.
+[14:55 -> 14:59] Quando a gente olha para o preço médio das congeneras,
+[14:59 -> 15:02] o mês de julho é um mês atípico,
+[15:02 -> 15:18] porque apesar do preço médio de junho ter ficado bem inferior
+[15:18 -> 15:24] ao preço médio de mercado, a gente observa que em julho
+[15:24 -> 15:31] é onde o preço médio da porta está mais próximo do preço médio em geral.
+[15:31 -> 15:33] O que eu quero dizer com isso?
+[15:33 -> 15:38] Aqui eu tenho esse preço médio das congeneras,
+[15:38 -> 15:40] ele engana um pouco, por que?
+[15:40 -> 15:45] Porque eu tenho duas congeneras com preço extremamente alto.
+[15:45 -> 15:49] Eu tenho uma congeneira com preço baixo,
+[15:49 -> 15:53] e eu tenho uma congeneira com preço muito próximo da preço da porta.
+[15:53 -> 15:59] Então, por que a porta, nesse caso, não atingiu a meta?
+[15:59 -> 16:04] Porque eu tenho uma congeneira extremamente descontada.
+[16:04 -> 16:07] Então, quando ela atingiu,
+[16:07 -> 16:10] quando ela teve esse deslocamento de preço,
+[16:10 -> 16:13] essa diferença de preço entre preço médio de mercado,
+[16:13 -> 16:17] ela não conseguiu atingir a meta
+[16:17 -> 16:20] porque tinha uma outra congeneira extremamente descontada,
+[16:20 -> 16:22] o que não aconteceu em julho.
+[16:22 -> 16:27] Em julho, a gente está falando de uma congeneira bem agravada,
+[16:27 -> 16:30] a gente está falando de uma congeneira um pouco descontada
+[16:30 -> 16:34] e outras duas congeneiras com preço muito próximo da porta.
+[16:34 -> 16:37] A gente sabe da relevância da porta,
+[16:37 -> 16:40] do nome forte que a porta tem no mercado,
+[16:40 -> 16:44] e quando a gente tem congeneiras com preço muito próximo ao preço da porta,
+[16:44 -> 16:49] os segurados tendem a fechar com a porta.
+[16:49 -> 16:52] Então, essa diferença de preço,
+[16:52 -> 16:56] ela não foi significamente alta como em julho
+[16:56 -> 17:00] para que desestimulasse a contratação da porta.
+[17:00 -> 17:02] Então, por isso que em julho,
+[17:02 -> 17:06] há um atingimento da meta diferente de maio,
+[17:06 -> 17:08] porque as congeneiras que estão descontadas,
+[17:08 -> 17:13] elas estão descontadas, mas não muito em relação a porta.
+[17:13 -> 17:18] Sobre as cotações,
+[17:18 -> 17:24] a gente percebe que a porta no perfil 1 e no perfil 2,
+[17:24 -> 17:29] ela está sempre, ou é a que mais cota,
+[17:29 -> 17:34] ou é a segunda que mais cota,
+[17:34 -> 17:38] mas na média a porta,
+[17:38 -> 17:43] ela sempre tem um destaque em relação a as cotações,
+[17:43 -> 17:46] ela está sempre em destaque.
+[17:46 -> 17:49] Bom, aqui sobre o gráfico de dispersão
+[17:49 -> 17:54] entre diferença de preço e atingimento de meta,
+[17:54 -> 17:58] o fenômeno acontece do mesmo jeito que o perfil 1,
+[17:58 -> 18:01] apesar de ser completamente diferente
+[18:01 -> 18:04] o comportamento entre porta e média de mercado,
+[18:04 -> 18:07] a gente observa que nos meses
+[18:07 -> 18:12] onde tem mais distância de prêmio,
+[18:12 -> 18:14] existe menor fechamento,
+[18:14 -> 18:17] com exceção de maio e julho,
+[18:17 -> 18:20] que são de maio e julho.
+[18:29 -> 18:33] Em julho, o raciocínio é análogo ao mês de maio,
+[18:33 -> 18:38] onde apesar da porta estar distante,
+[18:38 -> 18:44] a porta estará distante da média de mercado,
+[18:44 -> 18:47] mas quando a gente abre e olha as congêneres,
+[18:47 -> 18:50] a gente tem duas congêneres muito descontadas,
+[18:50 -> 18:53] é mais ou menos a realidade de junho,
+[18:53 -> 18:56] só que aqui a gente tem duas.
+[18:56 -> 19:00] Então, por isso também que em maio não há atingimento,
+[19:00 -> 19:04] inclusive a situação é mais crítica que em junho.
+[19:04 -> 19:08] Por que em junho a meta...
+[19:09 -> 19:16] Bom, e aí trazendo...
+[19:16 -> 19:18] estão comparando, né?
+[19:18 -> 19:22] Julho e maio, em julho e maio,
+[19:22 -> 19:26] em julho e maio a gente tem
+[19:26 -> 19:31] pontos distoantes,
+[19:31 -> 19:34] um fechamento muito próximo,
+[19:34 -> 19:37] mas em maio a gente tem duas congêneres muito descontadas,
+[19:37 -> 19:42] em julho a gente tem uma congêneria um pouco descontada
+[19:42 -> 19:47] e as outras duas estão com preço muito próximo.
+[19:47 -> 19:51] Então, há um desestímulo aqui de contratação da porta
+[19:51 -> 19:54] diferente de julho.
+[19:54 -> 19:58] Então, por isso que em julho há atingimento da meta
+[19:58 -> 20:01] e em maio não há atingimento da meta.
+[20:01 -> 20:05] Então, existe essa relação entre...
+[20:05 -> 20:12] essa relação entre variação de prêmio entre porto e mercado.
+[20:12 -> 20:15] Então, quanto menor essa distância,
+[20:15 -> 20:19] mais fácil é o atingimento de meta.
+[20:19 -> 20:23] E aqui em relação à projeção que foi feita,
+[20:23 -> 20:25] existe uma projeção,
+[20:25 -> 20:28] preço da porta bem descontado,
+[20:28 -> 20:32] mas existe uma projeção também de desconto
+[20:32 -> 20:35] para o prêmio de mercado.
+[20:35 -> 20:38] Então, por isso que em julho,
+[20:38 -> 20:44] existe essa expectativa do fechamento ficar próximo da meta.
+[20:44 -> 20:49] Então, aqui ainda não há, ainda, um estudo em relação
+[20:49 -> 20:51] a isso daqui.
+[20:51 -> 20:54] É apenas uma projeção para indicar
+[20:54 -> 20:56] se continuar do jeito que está,
+[20:56 -> 20:59] o que vai acontecer com o fechamento
+[20:59 -> 21:02] tanto no perfil 1 quanto no perfil 2.
+[21:02 -> 21:05] Eu trouxe aqui uma análise de cluster,
+[21:05 -> 21:09] essa análise é só para a gente poder identificar,
+[21:09 -> 21:11] vou voltar para o perfil 1,
+[21:11 -> 21:13] é só para a gente conseguir identificar
+[21:13 -> 21:16] se existem congêneres similares
+[21:16 -> 21:18] em relação à prática do preço,
+[21:18 -> 21:20] tanto no perfil 1 quanto no perfil 2,
+[21:20 -> 21:22] ou se são todas diferentes.
+[21:22 -> 21:25] Então, a gente observa que o perfil 1
+[21:25 -> 21:28] existem outras duas congêneres
+[21:28 -> 21:33] onde estão classificados como
+[21:33 -> 21:35] preço médio e volume alto,
+[21:35 -> 21:37] ou seja, cota bastante,
+[21:37 -> 21:39] mas não é o maior preço de mercado.
+[21:39 -> 21:41] Existe um outro grupo
+[21:41 -> 21:43] que é um grupo de preço muito baixo,
+[21:43 -> 21:45] mas também não contribui tanto
+[21:45 -> 21:46] com cotação.
+[21:46 -> 21:48] Existe um outro terceiro grupo
+[21:48 -> 21:50] onde o preço é muito alto
+[21:50 -> 21:52] e um volume de cotação muito baixo.
+[21:52 -> 21:55] Então, esse preço alto e volume muito baixo,
+[21:55 -> 21:57] tanto um quanto o outro,
+[21:57 -> 21:59] o preço pode estar distorcido.
+[21:59 -> 22:02] Muito provavelmente essa média
+[22:02 -> 22:08] não é uma mostra filedigna da distribuição.
+[22:08 -> 22:10] Então, pode ser que o preço
+[22:10 -> 22:13] nem seja tão alto e nem seja tão baixo,
+[22:13 -> 22:16] mas a mostra que tem está dizendo isso para a gente.
+[22:16 -> 22:18] Isso acontece também no perfil 2.
+[22:18 -> 22:20] No perfil 2, a gente tem
+[22:20 -> 22:22] uma outra congêneira com a porta
+[22:22 -> 22:24] onde aqui é a mesma situação,
+[22:24 -> 22:26] preço médio e volume alto,
+[22:26 -> 22:29] uma congêneira com preço baixo e volume baixo,
+[22:29 -> 22:32] e outras duas com preço alto e volume médio.
+[22:32 -> 22:35] Bom, aqui é só para a gente
+[22:35 -> 22:37] trazer esse cenário,
+[22:37 -> 22:39] se a porta está sozinha,
+[22:39 -> 22:42] se existem outras congêneiras com a porta.
+[22:42 -> 22:45] Então, com relação ao que foi apontado
+[22:45 -> 22:47] no posicionamento de mercado,
+[22:47 -> 22:49] o detalhamento da carteira,
+[22:49 -> 22:52] da base de mercado,
+[22:52 -> 22:56] eu trouxe algumas situações.
+[22:56 -> 23:00] Então, eu trouxe um cenário histórico.
+[23:00 -> 23:02] Esse cenário histórico,
+[23:02 -> 23:04] ele vai ter três simulações,
+[23:04 -> 23:06] sempre olhando para o passado.
+[23:06 -> 23:10] Então, eu tenho uma...
+[23:10 -> 23:13] uma simulação de um ajuste
+[23:13 -> 23:16] olhando para todo o histórico de janeiro a agosto.
+[23:16 -> 23:20] Eu tenho olhando para os últimos três meses
+[23:20 -> 23:22] e eu tenho olhando para o mês de agosto.
+[23:22 -> 23:24] Então, será que os cenários
+[23:24 -> 23:26] vão trazer a mesma resposta?
+[23:26 -> 23:29] Será que a diferença de preço
+[23:29 -> 23:31] ao longo do tempo,
+[23:31 -> 23:34] ela vai trazer uma resposta diferente?
+[23:34 -> 23:37] Além disso, eu trouxe uma previsão para setembro,
+[23:37 -> 23:39] usando a previsão para setembro,
+[23:39 -> 23:42] o que pode ser feito no preço
+[23:42 -> 23:44] para atingimento de meta
+[23:44 -> 23:46] e uma ideia de elasticidade.
+[23:46 -> 23:48] Aqui é só uma ideia, porque
+[23:48 -> 23:51] não existe um fechamento
+[23:51 -> 23:53] das outras congêneiras, nem da média de mercado.
+[23:53 -> 23:56] Então, é uma elasticidade incompleta.
+[23:56 -> 23:58] É mesmo só para a gente entender
+[23:58 -> 24:01] como funciona a variação de preço
+[24:01 -> 24:04] para atingimento de meta para porto.
+[24:04 -> 24:07] Então, para o cenário histórico
+[24:07 -> 24:10] e para toda a base,
+[24:10 -> 24:12] a gente está falando
+[24:12 -> 24:15] para um atingimento de meta de 15%,
+[24:15 -> 24:18] a porto precisa reduzir o seu preço
+[24:18 -> 24:21] em 6,7%.
+[24:21 -> 24:24] Ou seja, a gente está falando de um preço...
+[24:24 -> 24:27] Vou voltar aqui para o perfil 1.
+[24:27 -> 24:29] Então, a gente está falando
+[24:29 -> 24:32] para o atingimento de 15%,
+[24:32 -> 24:35] uma diferença de...
+[24:35 -> 24:38] uma redução de 0,7%
+[24:38 -> 24:40] no preço, mas não é uma redução
+[24:40 -> 24:42] de 7% do preço em relação
+[24:42 -> 24:44] ao preço já praticado pela porto.
+[24:44 -> 24:46] É uma redução de 0,7%
+[24:46 -> 24:49] em relação ao preço praticado pelo mercado.
+[24:49 -> 24:51] Então, se o mercado
+[24:51 -> 24:54] está praticando 2,837,
+[24:54 -> 24:56] a porto precisa praticar
+[24:56 -> 24:58] em média 2,818.
+[24:58 -> 25:00] Aqui,
+[25:00 -> 25:02] esse estudo foi feito com base
+[25:02 -> 25:04] em uma regressão linear.
+[25:04 -> 25:07] Então, para que a porto saia
+[25:07 -> 25:09] desse patamar de fechamento,
+[25:09 -> 25:11] para esse patamar de fechamento
+[25:11 -> 25:13] que são os 15%,
+[25:13 -> 25:15] ela precisa praticar
+[25:15 -> 25:17] esse prêmio médio e isso com relação
+[25:17 -> 25:19] à base histórica.
+[25:19 -> 25:21] Quando a gente vai para o cenário e aí,
+[25:21 -> 25:23] ela precisa reduzir
+[25:23 -> 25:25] não o 0,7% em relação
+[25:25 -> 25:27] ao preço de mercado, mas ela precisa
+[25:27 -> 25:29] em relação ao preço dela, reduzir
+[25:29 -> 25:31] em 8,46%.
+[25:31 -> 25:33] Por que que existem esses dois...
+[25:33 -> 25:35] esses dois ajustes
+[25:35 -> 25:37] aqui.
+[25:37 -> 25:39] Esse daqui
+[25:39 -> 25:41] é o ajuste que precisa ser feito
+[25:41 -> 25:43] em relação ao preço do mercado.
+[25:43 -> 25:45] Ou seja,
+[25:45 -> 25:47] independente do...
+[25:47 -> 25:49] se o mercado ajusta para baixo,
+[25:49 -> 25:51] a porto precisa reajustar
+[25:51 -> 25:53] mais baixo ainda
+[25:53 -> 25:55] em 0,7%.
+[25:55 -> 25:57] Aqui, então,
+[25:57 -> 25:59] se a porto passa...
+[25:59 -> 26:01] se o preço médio de mercado
+[26:01 -> 26:03] passa para 2,700,
+[26:03 -> 26:05] menos 0,7%
+[26:05 -> 26:07] dos 2,700.
+[26:07 -> 26:09] Se o mercado passa
+[26:09 -> 26:11] a praticar 2,500,
+[26:11 -> 26:13] é 2,500
+[26:13 -> 26:15] vezes 0,93%.
+[26:15 -> 26:17] Então, a porto
+[26:17 -> 26:19] tem sempre que estar
+[26:19 -> 26:21] 0,7%
+[26:21 -> 26:23] abaixo do preço médio praticado pelo mercado.
+[26:23 -> 26:25] Mas,
+[26:25 -> 26:27] se o mercado não mexer,
+[26:27 -> 26:29] se o preço
+[26:29 -> 26:31] continuar constante,
+[26:31 -> 26:33] a porto pode aplicar
+[26:33 -> 26:35] 8,46%
+[26:35 -> 26:37] de desconto no seu preço.
+[26:37 -> 26:39] Então, existem essas duas...
+[26:39 -> 26:41] essas duas formas de atingimento de meta.
+[26:41 -> 26:43] Ou, olha para o preço de mercado
+[26:43 -> 26:45] sabendo
+[26:45 -> 26:47] que ele é variável e já aplica
+[26:47 -> 26:49] 0,7% de desconto.
+[26:49 -> 26:51] Ou, imaginando que o mercado
+[26:51 -> 26:53] não vai alterar o preço,
+[26:53 -> 26:55] até porque, pela série
+[26:55 -> 26:57] histórica, o preço do perfil 1
+[26:57 -> 26:59] ele não altera tanto.
+[26:59 -> 27:01] Então, a porto pode
+[27:01 -> 27:03] aplicar
+[27:03 -> 27:05] 8,46% de desconto
+[27:05 -> 27:07] na tarifa
+[27:07 -> 27:09] amanhã, para que atinja
+[27:09 -> 27:11] os 15%
+[27:11 -> 27:13] da meta.
+[27:13 -> 27:15] Então, existem essas duas formas
+[27:15 -> 27:17] de fazer o ajuste de preço.
+[27:17 -> 27:19] Olhando para os 3 meses,
+[27:19 -> 27:21] a gente percebe que
+[27:21 -> 27:23] altera um pouco,
+[27:23 -> 27:25] mas não altera tanto.
+[27:25 -> 27:27] Então,
+[27:27 -> 27:29] a média
+[27:29 -> 27:31] das congêneres de mercado
+[27:31 -> 27:33] é de 2,823,
+[27:33 -> 27:35] contra, no perfil histórico,
+[27:35 -> 27:37] 2,837.
+[27:37 -> 27:39] Então, existe uma diferença muito pequena
+[27:39 -> 27:41] no preço, justamente porque
+[27:41 -> 27:43] a
+[27:43 -> 27:45] série tem uma variação muito pequena
+[27:45 -> 27:47] de janeiro até
+[27:47 -> 27:49] agosto.
+[27:49 -> 27:51] E, é a mesma realidade,
+[27:51 -> 27:53] se a gente pega o preço
+[27:53 -> 27:55] médio de mercado,
+[27:55 -> 27:57] sempre varia
+[27:57 -> 27:59] 0,3% para baixo
+[27:59 -> 28:01] do preço médio de mercado, para praticar
+[28:01 -> 28:03] na porto, para que atinja
+[28:03 -> 28:05] os 15%.
+[28:05 -> 28:07] Mas, se a gente acha
+[28:07 -> 28:09] que o preço ele vai se manter
+[28:09 -> 28:11] constante, aplica
+[28:11 -> 28:13] os 6,36%
+[28:15 -> 28:17] aplica esses 6,36%
+[28:17 -> 28:19] para
+[28:19 -> 28:21] que tenha o atingimento de meta.
+[28:21 -> 28:23] É óbvio, para o uso
+[28:23 -> 28:25] do 0,3%
+[28:25 -> 28:27] precisa sempre saber
+[28:27 -> 28:29] qual é o preço médio de mercado
+[28:29 -> 28:31] porque esse 0,3%
+[28:31 -> 28:33] ele não é aplicável
+[28:33 -> 28:35] no prêmio direto do prêmio da porto
+[28:35 -> 28:37] que é aplicável direto no prêmio da porto
+[28:37 -> 28:39] seria os
+[28:39 -> 28:41] 6,36. Agora, olhando
+[28:41 -> 28:43] para o mês de agosto
+[28:43 -> 28:45] a gente
+[28:45 -> 28:47] e só para o mês de agosto
+[28:47 -> 28:49] a gente está falando
+[28:49 -> 28:51] do mesmo patamar do histórico completo
+[28:51 -> 28:53] volta praticamente
+[28:53 -> 28:55] a mesma situação
+[28:55 -> 28:57] então, a gente precisa
+[28:57 -> 28:59] praticar 0,7% de desconto
+[28:59 -> 29:01] em cima
+[29:01 -> 29:03] do preço médio
+[29:03 -> 29:05] do mercado contra
+[29:05 -> 29:07] 6,74%
+[29:07 -> 29:09] do preço
+[29:09 -> 29:11] do preço total
+[29:11 -> 29:13] da porto
+[29:13 -> 29:15] então, nesse caso
+[29:15 -> 29:17] a gente estaria aplicando
+[29:17 -> 29:19] diminuindo
+[29:19 -> 29:21] esse preço para cá
+[29:21 -> 29:23] no mês de setembro
+[29:23 -> 29:25] ou 0,7%
+[29:25 -> 29:27] a gente estaria olhando para esse preço
+[29:27 -> 29:29] e aplicando esse desconto
+[29:29 -> 29:31] no preço da porto
+[29:31 -> 29:33] em cima desse preço daqui
+[29:33 -> 29:35] em cima do preço médio de mercado
+[29:35 -> 29:37] mas é um pouco arriscado
+[29:37 -> 29:39] fazer esse ajuste
+[29:39 -> 29:41] justamente por não saber
+[29:41 -> 29:43] qual vai ser o preço
+[29:43 -> 29:45] médio de mercado porque se o preço
+[29:45 -> 29:47] médio de mercado variar
+[29:47 -> 29:49] o ajuste da porto
+[29:49 -> 29:51] vai estar sempre defasado
+[29:51 -> 29:53] vai estar sempre defasado
+[29:53 -> 29:55] é...
+[29:55 -> 29:57] aqui
+[29:57 -> 29:59] aqui seria uma previsão
+[29:59 -> 30:01] em relação
+[30:01 -> 30:03] seria o uso da previsão
+[30:03 -> 30:05] para que fosse feita uma mexida
+[30:05 -> 30:07] vou voltar aqui
+[30:07 -> 30:09] imagina que o mercado
+[30:09 -> 30:11] não mexe o preço
+[30:11 -> 30:13] se o mercado não mexe o preço
+[30:13 -> 30:15] já existe uma expectativa
+[30:15 -> 30:17] o preço da porto
+[30:17 -> 30:19] cai
+[30:19 -> 30:21] se continuar de acordo com a previsão
+[30:21 -> 30:23] o preço
+[30:23 -> 30:25] vai ser reajustado automaticamente
+[30:25 -> 30:27] o preço sendo reajustado automaticamente
+[30:27 -> 30:29] não existe
+[30:29 -> 30:31] tanta necessidade de mexida
+[30:31 -> 30:33] no preço da porto
+[30:33 -> 30:35] porque o preço da porto já estaria muito próximo
+[30:35 -> 30:37] do preço praticado pelo mercado
+[30:37 -> 30:39] por isso que eu trouxe essa previsão
+[30:39 -> 30:41] será que a previsão por si só
+[30:41 -> 30:43] já vai reajustar o preço
+[30:43 -> 30:45] e ter tanta necessidade de mexida
+[30:45 -> 30:47] na tarifa
+[30:47 -> 30:49] então a gente percebe aqui
+[30:49 -> 30:51] que na verdade isso não acontece
+[30:51 -> 30:53] porque que isso não acontece
+[30:53 -> 30:55] porque o mercado vai mexer o preço
+[30:57 -> 30:59] então se o mercado
+[30:59 -> 31:01] não mexesse o preço
+[31:01 -> 31:03] o reajuste seria quase zerado
+[31:03 -> 31:05] porque o reajuste seria quase zerado
+[31:05 -> 31:07] porque quando a gente olha por mês de agosto
+[31:07 -> 31:09] a gente está falando de uma diminuição
+[31:09 -> 31:11] de quase 7%
+[31:11 -> 31:13] quando a gente vai para setembro
+[31:13 -> 31:15] a gente está falando de um reajuste de 9,93
+[31:15 -> 31:17] mas é um reajuste
+[31:17 -> 31:19] em cima
+[31:19 -> 31:21] do preço de agosto
+[31:21 -> 31:23] então a gente precisa reduzir em 9,93
+[31:23 -> 31:25] para chegar
+[31:25 -> 31:27] aqui um pouquinho
+[31:27 -> 31:29] abaixo do preço do mercado
+[31:29 -> 31:31] para que a meta dos 15%
+[31:31 -> 31:33] seja atingida
+[31:33 -> 31:35] porém como o mercado vai diminuir o preço
+[31:35 -> 31:37] então a porto
+[31:37 -> 31:39] não pode atingir
+[31:39 -> 31:41] ela precisa reduzir
+[31:41 -> 31:43] considerando apenas a previsão
+[31:43 -> 31:45] aqui
+[31:45 -> 31:47] com o preço médio de mercado constante
+[31:47 -> 31:49] ela precisa reduzir
+[31:49 -> 31:51] um pouco mais
+[31:51 -> 31:53] então por isso que chega
+[31:53 -> 31:55] a 9,93 de redução
+[31:55 -> 31:57] do prêmio de agosto porque o mercado
+[31:57 -> 31:59] também vai mudar o preço
+[31:59 -> 32:01] como eu falei
+[32:01 -> 32:03] se o preço médio de mercado
+[32:03 -> 32:05] ficasse travado
+[32:05 -> 32:07] esses 9,93
+[32:07 -> 32:09] provavelmente ficaria muito próximo
+[32:09 -> 32:11] do 7%
+[32:11 -> 32:13] porque não haveria tanta necessidade
+[32:13 -> 32:15] da porto mexer no preço
+[32:15 -> 32:17] visto que
+[32:17 -> 32:19] o próprio mercado
+[32:19 -> 32:21] a própria tarifa da porto
+[32:21 -> 32:23] já existe uma previsão
+[32:23 -> 32:25] para que ela caia
+[32:25 -> 32:27] e aqui vendo
+[32:27 -> 32:29] uma elasticidade
+[32:29 -> 32:31] o que seria elasticidade?
+[32:31 -> 32:33] eu não estou comparando ninguém com ninguém
+[32:33 -> 32:35] até porque eu não tenho informação
+[32:35 -> 32:37] para basicamente trazer
+[32:37 -> 32:39] o
+[32:39 -> 32:41] seria trazer a diferença
+[32:41 -> 32:43] de prêmio entre porto e mercado
+[32:43 -> 32:45] e entender
+[32:45 -> 32:47] quanto de prêmio precisaria diminuir
+[32:47 -> 32:49] em relação a mercado
+[32:49 -> 32:51] para que fosse atingido
+[32:51 -> 32:53] o 7%
+[32:53 -> 32:55] porque aqui não posso falar
+[32:55 -> 32:57] diretamente de elasticidade
+[32:57 -> 32:59] porque eu não sei
+[32:59 -> 33:01] aqui no caso como eu estou falando
+[33:01 -> 33:03] de desconto
+[33:03 -> 33:05] é muito tranquilo entender
+[33:05 -> 33:07] que diminuir o preço significa
+[33:07 -> 33:09] aumento
+[33:09 -> 33:11] aumento do fechamento
+[33:11 -> 33:13] o complicado seria o contrário
+[33:13 -> 33:15] se precisasse
+[33:15 -> 33:17] agravar até que ponto
+[33:17 -> 33:19] a porto consegue agravar o preço
+[33:19 -> 33:21] ou
+[33:21 -> 33:23] até que ponto a porto
+[33:23 -> 33:25] precisa descontar
+[33:25 -> 33:27] para não descontar muito
+[33:27 -> 33:29] para que ela consiga atingir os 15%
+[33:29 -> 33:31] então aqui é uma falsa elasticidade
+[33:31 -> 33:33] é apenas para entender
+[33:33 -> 33:35] em que momento
+[33:35 -> 33:37] o desconto seria dado
+[33:37 -> 33:39] para que
+[33:39 -> 33:41] o atingimento da meta fosse possível
+[33:41 -> 33:43] então no perfil 1
+[33:43 -> 33:45] a gente está falando de
+[33:45 -> 33:47] dos mesmos 0,7%
+[33:47 -> 33:49] que já foi apresentado no cenário geral
+[33:49 -> 33:51] e no perfil 2
+[33:51 -> 33:53] a gente está falando de
+[33:53 -> 33:55] um desconto mais agressivo
+[33:55 -> 33:57] então para que
+[33:57 -> 33:59] a meta fosse atingida no perfil 2
+[33:59 -> 34:01] a gente precisaria abaixar
+[34:01 -> 34:03] em relação ao preço médio de mercado
+[34:03 -> 34:05] 6,7%
+[34:05 -> 34:07] então para os cenários
+[34:07 -> 34:09] aqui no perfil 2 a gente está falando
+[34:09 -> 34:11] dos
+[34:11 -> 34:13] 6,7%
+[34:13 -> 34:15] em relação ao mercado
+[34:15 -> 34:17] mais
+[34:17 -> 34:19] em relação ao preço da porto
+[34:19 -> 34:21] 6,28%
+[34:21 -> 34:23] e isso no mês de agosto
+[34:23 -> 34:25] quando a gente olha pro cenário
+[34:25 -> 34:27] de forma geral porque que não precisa
+[34:27 -> 34:29] abaixar tanto
+[34:29 -> 34:31] para mês de agosto
+[34:31 -> 34:33] em relação à média
+[34:33 -> 34:35] de janeiro a agosto
+[34:35 -> 34:37] porque o mês de agosto
+[34:37 -> 34:39] ele já está abaixo
+[34:39 -> 34:41] do preço de mercado
+[34:41 -> 34:43] então por isso que a gente não precisa abaixar tanto
+[34:47 -> 34:49] bom
+[34:49 -> 34:51] aqui olhando para o histórico
+[34:51 -> 34:53] o preço médio da porto
+[34:53 -> 34:55] está um pouco acima do preço
+[34:55 -> 34:57] de mercado
+[34:57 -> 34:59] nos últimos 3 meses
+[34:59 -> 35:01] o preço
+[35:01 -> 35:03] vamos olhar um cenário dos últimos 3 meses
+[35:03 -> 35:05] nos últimos 3 meses o preço da porto
+[35:05 -> 35:07] está bem abaixo do preço de mercado
+[35:07 -> 35:09] por isso que nesse cenário
+[35:09 -> 35:11] o desconto precisa ser menor
+[35:11 -> 35:13] então se a gente avaliasse os últimos 3 meses
+[35:13 -> 35:15] para fazer uma mudança de preço
+[35:15 -> 35:17] a gente daria menos desconto
+[35:17 -> 35:19] então a gente percebe que
+[35:19 -> 35:21] em todos os cenários
+[35:21 -> 35:23] em todos os perfis
+[35:23 -> 35:25] o desconto
+[35:25 -> 35:27] entre todos os cenários
+[35:27 -> 35:29] então no perfil 1
+[35:29 -> 35:31] ele indica
+[35:31 -> 35:33] um desconto próximo
+[35:33 -> 35:35] no perfil 2
+[35:35 -> 35:37] todos os cenários indicam um desconto
+[35:37 -> 35:39] próximo também
+[35:39 -> 35:41] então por que eu trouxe tantos cenários
+[35:41 -> 35:43] para a gente entender como funciona
+[35:43 -> 35:45] a aplicação
+[35:45 -> 35:47] de um reajuste de acordo com o cenário
+[35:47 -> 35:49] então se eu tomar essa decisão
+[35:49 -> 35:51] de olhar por histórico todo
+[35:51 -> 35:53] se eu olhar para os últimos 3 meses
+[35:53 -> 35:55] se eu olhar para o último mês
+[35:55 -> 35:57] a gente percebe que
+[35:57 -> 35:59] aqui existe uma coincidência
+[35:59 -> 36:01] entre o ajuste sugerido
+[36:01 -> 36:03] porque o ajuste sugerido
+[36:03 -> 36:05] ele poderia ser outro
+[36:05 -> 36:07] se as séries fossem completamente diferentes
+[36:07 -> 36:09] óbvio
+[36:09 -> 36:11] que a gente nunca vai olhar para um histórico completo
+[36:11 -> 36:13] para fazer um ajuste
+[36:13 -> 36:15] agora até porque
+[36:15 -> 36:17] em janeiro fevereiro
+[36:17 -> 36:19] apesar de ser desse ano
+[36:19 -> 36:21] um número distante
+[36:21 -> 36:23] então a realidade de janeiro fevereiro
+[36:23 -> 36:25] já não é mais a realidade de janeiro fevereiro
+[36:25 -> 36:27] então a gente
+[36:27 -> 36:29] tem sempre que olhar
+[36:29 -> 36:31] o mês atual
+[36:31 -> 36:33] aqui eu trouxe a previsão de setembro
+[36:33 -> 36:35] justamente como eu disse
+[36:35 -> 36:37] pode ser que a previsão
+[36:37 -> 36:39] já indique
+[36:39 -> 36:41] uma mudança no preço
+[36:41 -> 36:43] e aí não é necessário
+[36:43 -> 36:45] que dê muito desconto
+[36:45 -> 36:47] para o atingimento de meta
+[36:47 -> 36:49] é uma situação hipotética
+[36:49 -> 36:51] são poucos dados para fazer uma previsão
+[36:51 -> 36:53] aqui é somente para trazer
+[36:53 -> 36:55] mais um cenário para enriquecer
+[36:55 -> 36:57] a apresentação
+[36:57 -> 36:59] então de maneira geral
+[36:59 -> 37:01] para o perfil
+[37:01 -> 37:03] 1
+[37:03 -> 37:05] ficaria com desconto próximo de 6,5
+[37:05 -> 37:07] para o perfil 2
+[37:07 -> 37:09] um desconto próximo de 6%
+[37:09 -> 37:11] no preço
+[37:11 -> 37:13] então aqui eu trouxe
+[37:13 -> 37:15] um cenário simulando
+[37:15 -> 37:17] todos os cenários
+[37:17 -> 37:19] então onde estão as congêneres
+[37:19 -> 37:21] onde estão
+[37:21 -> 37:23] o preço médio de mercado
+[37:23 -> 37:25] e onde está
+[37:25 -> 37:27] o preço da porta
+[37:27 -> 37:29] então aqui no cenário 1
+[37:29 -> 37:31] para o perfil 1
+[37:31 -> 37:33] para o cenário histórico completo
+[37:33 -> 37:35] a gente está aqui
+[37:35 -> 37:37] bem acima da média
+[37:37 -> 37:39] no meio entre
+[37:39 -> 37:41] todas as congêneres
+[37:41 -> 37:43] e o alvo seria
+[37:43 -> 37:45] ficar um pouco abaixo da média de mercado
+[37:45 -> 37:47] no cenário 2
+[37:47 -> 37:49] muda um pouco
+[37:49 -> 37:51] mas ainda assim
+[37:51 -> 37:53] a porta está acima
+[37:53 -> 37:55] da média de mercado
+[37:55 -> 37:57] no meio dos dois
+[37:57 -> 37:59] o cenário 3
+[37:59 -> 38:01] praticamente a mesma situação
+[38:01 -> 38:03] o cenário 4
+[38:03 -> 38:05] como existe aquela queda na previsão
+[38:05 -> 38:07] o preço já está bem mais próximo
+[38:07 -> 38:09] do preço praticado
+[38:09 -> 38:11] que deveria ser praticado
+[38:11 -> 38:13] para o atingimento da meta
+[38:13 -> 38:15] dos 15%
+[38:15 -> 38:17] e
+[38:17 -> 38:19] com a elasticidade
+[38:19 -> 38:21] existe uma
+[38:21 -> 38:23] necessidade de diminuir um pouquinho
+[38:23 -> 38:25] o preço
+[38:25 -> 38:27] a elasticidade é só para indicar
+[38:27 -> 38:29] o que pode acontecer
+[38:29 -> 38:31] com o fechamento
+[38:31 -> 38:33] como aqui não é uma elasticidade real
+[38:33 -> 38:35] então ela não pode ser
+[38:35 -> 38:37] considerada
+[38:37 -> 38:39] uma forma de ajuste de preço
+[38:39 -> 38:41] e para o perfil 2
+[38:41 -> 38:43] os cenários
+[38:43 -> 38:45] dentro do perfil 2
+[38:45 -> 38:47] os cenários vão ficar parecidos
+[38:47 -> 38:49] o preço médio
+[38:49 -> 38:51] próximo em todos os cenários
+[38:51 -> 38:53] o preço médio sempre vai estar
+[38:53 -> 38:55] próximo
+[38:55 -> 38:57] do preço médio de mercado
+[38:57 -> 38:59] com o preço da porta
+[38:59 -> 39:01] inclusive
+[39:01 -> 39:03] eles são próximos entre as congêneres
+[39:03 -> 39:05] com exceção dessa congênera
+[39:05 -> 39:07] que ela é bem mais descontada
+[39:07 -> 39:09] mas
+[39:09 -> 39:11] o perfil 2
+[39:11 -> 39:13] ele exige um desconto maior
+[39:13 -> 39:15] que o perfil 1
+[39:15 -> 39:17] o perfil 1 a gente vai estar sempre falando
+[39:17 -> 39:19] daqueles 0,7%
+[39:19 -> 39:21] abaixo do preço médio de mercado
+[39:21 -> 39:23] no perfil 2
+[39:23 -> 39:25] a gente já vai estar falando
+[39:25 -> 39:27] de
+[39:27 -> 39:29] às vezes 6%
+[39:29 -> 39:31] 4%
+[39:31 -> 39:33] deixa eu ver aqui
+[39:33 -> 39:35] é sempre na média de 6%
+[39:35 -> 39:37] então a gente está falando de 6%
+[39:37 -> 39:39] abaixo do preço médio
+[39:39 -> 39:41] praticado pelo mercado
+[39:41 -> 39:43] então no perfil 2
+[39:43 -> 39:45] a ideia é que esse preço se fique
+[39:45 -> 39:47] bem
+[39:47 -> 39:49] mais deslocado para baixo
+[39:49 -> 39:51] comparado com perfil 1
+[39:51 -> 39:53] então essa
+[39:53 -> 39:55] essa apresentação
+[39:55 -> 39:57] esses foram os cenários
+[39:57 -> 39:59] eu quis extrapolar
+[39:59 -> 40:01] os cenários para trazer
+[40:01 -> 40:03] uma visão, uma análise mais completa
+[40:03 -> 40:05] do que fazer, do que não fazer
+[40:05 -> 40:07] o que acontece com o ajuste de preço
+[40:07 -> 40:09] se eu considerar um cenário
+[40:09 -> 40:11] se eu considerar outro cenário
+[40:11 -> 40:13] mas de maneira geral
+[40:13 -> 40:15] essa é a apresentação
+[40:15 -> 40:17] e a sugestão
+[40:17 -> 40:19] de ajuste de preço
+[40:19 -> 40:21] tanto no perfil 1
+[40:21 -> 40:23] quanto no perfil 2
+[40:23 -> 40:25] obrigado
