@@ -144,6 +144,6 @@ Certifique-se de ter o Python instalado na sua máquina (versão 3.10 ou superio
 
 ## 👤 Autor
 
-Desenvolvido por **Carlos Eduardo Isola**  
+Desenvolvido por **Carlos Eduardo Del'Isola**  
 GitHub: [@carloseadi](https://github.com/carloseadi)  
 Dashboard Online: [estudoporto-casedash.streamlit.app](https://estudoporto-casedash.streamlit.app/)
