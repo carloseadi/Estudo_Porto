@@ -178,7 +178,7 @@ def render_context_page():
             <ul style="color: #334155; font-size: 1rem; line-height: 1.85; margin-bottom: 0; padding-left: 22px;">
                 <li><b>Pesquisa Mercadológica:</b> Avaliação de posicionamento de preços vs ~10 concorrentes do setor.</li>
                 <li><b>Base Analítica:</b> Preços médios (Porto, 4 concorrentes diretos e mercado) e histórico mensal de % de conversão.</li>
-                <li><b>Segmentação:</b> Análise segregada em 2 perfis de clientes (Produto 1 e Produto 2).</li>
+                <li><b>Segmentação:</b> Análise segregada em 2 perfis de clientes (Perfil 1 e Perfil 2).</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
@@ -227,7 +227,7 @@ def render_diagnostico_page():
     </div>
     """, unsafe_allow_html=True)
 
-    # Big Numbers com Métricas Detalhadas por Produto (Produto 1 vs Produto 2)
+    # Big Numbers com Métricas Detalhadas por Perfil (Perfil 1 vs Perfil 2)
     col1, col2 = st.columns(2)
     with col1:
         st.markdown("""
@@ -235,12 +235,12 @@ def render_diagnostico_page():
             <h4 style="color: #166534; margin: 0; font-weight: 600;">Share de Cotações</h4>
             <div style="display: flex; justify-content: space-around; margin: 15px 0 10px 0; align-items: center;">
                 <div style="border-right: 1px solid #cbd5e1; padding-right: 12px; width: 50%;">
-                    <span style="font-size: 0.8em; color: #475569; font-weight: 600; display: block;">PRODUTO 1</span>
+                    <span style="font-size: 0.8em; color: #475569; font-weight: 600; display: block;">Perfil 1</span>
                     <span style="font-size: 1.8em; color: #15803d; font-weight: 700;">72,4%</span>
                     <span style="font-size: 0.75em; color: #64748b; display: block;">856k cotações</span>
                 </div>
                 <div style="padding-left: 12px; width: 50%;">
-                    <span style="font-size: 0.8em; color: #475569; font-weight: 600; display: block;">PRODUTO 2</span>
+                    <span style="font-size: 0.8em; color: #475569; font-weight: 600; display: block;">Perfil 2</span>
                     <span style="font-size: 1.8em; color: #15803d; font-weight: 700;">67,6%</span>
                     <span style="font-size: 0.75em; color: #64748b; display: block;">545k cotações</span>
                 </div>
@@ -254,12 +254,12 @@ def render_diagnostico_page():
             <h4 style="color: #991b1b; margin: 0; font-weight: 600;">Conversão Atual vs Meta (15%)</h4>
             <div style="display: flex; justify-content: space-around; margin: 15px 0 10px 0; align-items: center;">
                 <div style="border-right: 1px solid #cbd5e1; padding-right: 12px; width: 50%;">
-                    <span style="font-size: 0.8em; color: #475569; font-weight: 600; display: block;">PRODUTO 1</span>
+                    <span style="font-size: 0.8em; color: #475569; font-weight: 600; display: block;">Perfil 1</span>
                     <span style="font-size: 1.8em; color: #dc2626; font-weight: 700;">12,54%</span>
                     <span style="font-size: 0.75em; color: #991b1b; display: block;">Gap -2,46 p.p.</span>
                 </div>
                 <div style="padding-left: 12px; width: 50%;">
-                    <span style="font-size: 0.8em; color: #475569; font-weight: 600; display: block;">PRODUTO 2</span>
+                    <span style="font-size: 0.8em; color: #475569; font-weight: 600; display: block;">Perfil 2</span>
                     <span style="font-size: 1.8em; color: #d97706; font-weight: 700;">13,40%</span>
                     <span style="font-size: 0.75em; color: #b45309; display: block;">Gap -1,60 p.p.</span>
                 </div>
@@ -277,18 +277,18 @@ def render_diagnostico_page():
     with col_p1:
         st.markdown("""
         <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; height: 100%;">
-            <h4 style="color: #0f172a; margin-top: 0; margin-bottom: 12px; font-weight: 600;">1. Desalinhamento no Produto 1</h4>
+            <h4 style="color: #0f172a; margin-top: 0; margin-bottom: 12px; font-weight: 600;">1. Desalinhamento no Perfil 1</h4>
             <p style="color: #334155; font-size: 0.95em; line-height: 1.6; margin: 0;">
-                No Produto 1 (Perfil Entrada), a Porto opera <b>+8,51% acima do mercado</b> (R$ 3.078 vs R$ 2.837), o que limita a conversão média em <b>12,54%</b>.
+                No Perfil 1 (Perfil Entrada), a Porto opera <b>+8,51% acima do mercado</b> (R$ 3.078 vs R$ 2.837), o que limita a conversão média em <b>12,54%</b>.
             </p>
         </div>
         """, unsafe_allow_html=True)
     with col_p2:
         st.markdown("""
         <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; height: 100%;">
-            <h4 style="color: #0f172a; margin-top: 0; margin-bottom: 12px; font-weight: 600;">2. Prova Prática no Produto 2</h4>
+            <h4 style="color: #0f172a; margin-top: 0; margin-bottom: 12px; font-weight: 600;">2. Prova Prática no Perfil 2</h4>
             <p style="color: #334155; font-size: 0.95em; line-height: 1.6; margin: 0;">
-                No Produto 2, em Julho, quando a Porto praticou preço <b>-1,8% abaixo do mercado</b>, a conversão atingiu <b>15,31%</b>, comprovando a meta!
+                No Perfil 2, em Julho, quando a Porto praticou preço <b>-1,8% abaixo do mercado</b>, a conversão atingiu <b>15,31%</b>, comprovando a meta!
             </p>
         </div>
         """, unsafe_allow_html=True)
@@ -506,6 +506,18 @@ else:
         st.markdown("---")
         st.subheader("Relação: Preço vs Volume de Vendas")
         
+        corr_val = df_filtered['Competitividade_Preco'].corr(df_filtered['Vendas']) if len(df_filtered) >= 2 else None
+        if corr_val is not None and pd.notna(corr_val):
+            r2_val = corr_val ** 2
+            st.markdown(
+                f"<div style='margin-top: -6px; margin-bottom: 12px; font-size: 0.85rem; color: #475569;'>"
+                f"<span style='background: #F1F5F9; padding: 3px 9px; border-radius: 6px; border: 1px solid #E2E8F0; display: inline-block;'>"
+                f"📐 <b>Correlação (r):</b> {corr_val:.2f} &nbsp;|&nbsp; <b>R²:</b> {r2_val:.1%} "
+                f"<span style='color: #64748B;'>({'forte relação inversa' if corr_val < -0.7 else 'relação inversa'})</span>"
+                f"</span></div>",
+                unsafe_allow_html=True
+            )
+        
         fig_scatter = px.scatter(df_filtered, x='Competitividade_Preco', y='Vendas', 
                                  color='Perfil_Cliente', text='Periodo', hover_data=['Preco_Cia_Interna', 'Preco_Mercado'],
                                  labels={'Competitividade_Preco': 'Preço Porto vs Mercado (%)', 'Vendas': 'Vendas (%)'},
@@ -549,7 +561,10 @@ else:
         fig_scatter.update_yaxes(range=[df_filtered['Vendas'].min() * 0.95, max(df_filtered['Vendas'].max(), 0.15) * 1.05])
         fig_scatter.add_hline(y=0.15, line_dash="dash", line_color="#00B050", annotation_text="Meta de Vendas (15%)")
         st.plotly_chart(fig_scatter, width="stretch")
-        st.info("💡 **Insight de Posicionamento:** O gráfico acima ilustra a sensibilidade de preço. Observe se em pontos onde o preço da Porto é mais competitivo (valores menores ou negativos no eixo X) o percentual de Vendas (eixo Y) tende a ser maior.")
+        if corr_val is not None and pd.notna(corr_val):
+            st.info(f"💡 **Insight de Posicionamento:** O gráfico acima ilustra a sensibilidade de preço com **correlação de {corr_val:.2f}** (relação inversa). Em pontos onde o preço da Porto é mais competitivo (valores menores ou negativos no eixo X), o percentual de Vendas (eixo Y) tende a ser maior.")
+        else:
+            st.info("💡 **Insight de Posicionamento:** O gráfico acima ilustra a sensibilidade de preço. Observe se em pontos onde o preço da Porto é mais competitivo (valores menores ou negativos no eixo X) o percentual de Vendas (eixo Y) tende a ser maior.")
 
     with tab2:
         st.header("Análise de Cluster (Agrupamento das Seguradoras)")
